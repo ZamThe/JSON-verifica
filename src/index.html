@@ -1,0 +1,24 @@
+<!-- views/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Mi Aplicación</title>
+</head>
+<body>
+  <h1>Bienvenido a Mi Aplicación</h1>
+  <div id="login-form">
+    <label for="email">Correo electrónico:</label>
+    <input type="text" id="email" name="email" required>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" required>
+    <button onclick="login()">Iniciar sesión</button>
+  </div>
+  <div id="response"></div>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="/scripts/main.js"></script>
+</body>
+</html>
